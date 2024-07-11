@@ -1,0 +1,36 @@
+.navbar {
+  @extend %Display;
+
+  &__list {
+    @extend %Display;
+    gap: 50px;
+  }
+  &__link {
+    /* home */
+
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+    transition: all 0.3s linear;
+    &:hover {
+      color: #f67e7e;
+    }
+  }
+
+  &__burger {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  &__hr {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
