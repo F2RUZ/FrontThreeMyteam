@@ -1,0 +1,26 @@
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("../img/readyimg.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: #f67e7e;
+
+  padding: 100px 10px;
+  &__title {
+    /* Ready to get started */
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    color: #012f34;
+  }
+
+  &__btn {
+    @include Btn;
+  }
+}

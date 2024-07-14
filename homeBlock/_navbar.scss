@@ -1,5 +1,6 @@
 .navbar {
   @extend %Display;
+  background-color: #014E56;
 
   &__list {
     @extend %Display;
