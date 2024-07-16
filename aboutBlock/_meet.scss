@@ -1,0 +1,85 @@
+.meet {
+  padding: 140px 0;
+  width: 1100px;
+  margin: auto;
+
+  &__title {
+    /* Meet the directors */
+
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  &__cards {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__card {
+    position: relative;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #012f34;
+    gap: 15px;
+    margin-top: 50px;
+    height: 250px;
+  }
+
+  &__surname {
+    /* Nikita Marks */
+
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    text-align: center;
+
+    color: #79c8c7;
+  }
+  &__nikname {
+    /* Founder & CEO */
+
+    font-family: "Livvic";
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  &__sircle i {
+    bottom: -25px;
+    left: 44%;
+    position: absolute;
+    color: #f67e7e;
+    font-size: 50px;
+  }
+}
+
+
+@media only screen and (max-width:1100px){
+  .meet{
+    width: 90%;
+
+    &__title{
+      font-size: 2rem;
+    }
+  }
+}

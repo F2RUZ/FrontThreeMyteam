@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.headerContainer {
+  background-color: #014e56;
+  background-image: url("../img/aboutImg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.meetContainer {
+  background-color: #002529;
+  background-image: url("../img/meetLeft.png"), url("../img/meetRight.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
+.clientsContainer {
+  background-color: #012f34;
+  background-image: url("../img/clients-bg.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.readycContainer {
+  background-color: #f67e7e;
+  background-image: url("../img/ready.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}

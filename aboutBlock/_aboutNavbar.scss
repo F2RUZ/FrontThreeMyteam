@@ -1,0 +1,100 @@
+.navbar {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+
+  &__btn {
+    /* Group 6 */
+
+    width: 153px;
+    height: 48px;
+
+    box-sizing: border-box;
+
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+
+    background-color: inherit;
+    color: white;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  &__link {
+    /* home */
+
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+    transition: all 0.3s linear;
+
+    &:hover {
+      color: chocolate;
+    }
+  }
+
+  &__burger {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+  }
+  &__hr {
+    width: 30px;
+    height: 3px;
+    border: none;
+    background-color: rgb(102, 210, 30);
+    border-radius: 10px;
+  }
+  &__hr:last-child,
+  &__hr:first-child {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .navbar {
+    width: 90%;
+
+    &__btn {
+      display: none;
+    }
+
+    &__burger {
+      display: flex;
+    }
+    &__left {
+      gap: 5px;
+    }
+    &__list {
+      gap: 20px;
+    }
+  }
+}
